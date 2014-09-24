@@ -20,7 +20,7 @@
     UIButton *button = [[UIButton alloc] initWithFrame:self.view.bounds];
     button.autoresizingMask = (UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight);
     [button addTarget:self action:@selector(dismiss) forControlEvents:UIControlEventTouchUpInside];
-    [button setTitle:@"Dismiss Child View Controller" forState:UIControlStateNormal];
+    [button setTitle:@"Dismiss PresentedViewController" forState:UIControlStateNormal];
     [self.view addSubview:button];
 }
 

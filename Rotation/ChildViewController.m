@@ -20,7 +20,7 @@
     
     UIButton *button = [[UIButton alloc] initWithFrame:self.view.bounds];
     button.autoresizingMask = (UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight);
-    [button setTitle:@"Present Child View Controller" forState:UIControlStateNormal];
+    [button setTitle:@"Present PresentedViewController" forState:UIControlStateNormal];
     [button addTarget:self action:@selector(present) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];
 }
