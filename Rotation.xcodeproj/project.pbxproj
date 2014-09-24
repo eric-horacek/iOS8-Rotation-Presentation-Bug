@@ -65,14 +65,14 @@
 			children = (
 				3A6F4C9219D2018900B84E37 /* AppDelegate.h */,
 				3A6F4C9319D2018900B84E37 /* AppDelegate.m */,
-				3A6F4CBC19D221B500B84E37 /* ParentNavigationController.h */,
 				3A6F4CB719D209BD00B84E37 /* ParentViewController.h */,
 				3A6F4CB819D209BD00B84E37 /* ParentViewController.m */,
-				3A6F4CBD19D221B500B84E37 /* ParentNavigationController.m */,
 				3A6F4C9519D2018900B84E37 /* ChildViewController.h */,
 				3A6F4C9619D2018900B84E37 /* ChildViewController.m */,
 				3A6F4CB419D202AD00B84E37 /* PresentedViewController.h */,
 				3A6F4CB519D202AD00B84E37 /* PresentedViewController.m */,
+				3A6F4CBC19D221B500B84E37 /* ParentNavigationController.h */,
+				3A6F4CBD19D221B500B84E37 /* ParentNavigationController.m */,
 				3A6F4C9B19D2018900B84E37 /* Images.xcassets */,
 				3A6F4C8E19D2018900B84E37 /* Supporting Files */,
 			);
@@ -291,6 +291,7 @@
 				3A6F4CB019D2018900B84E37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
